@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Timetable</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">For me!</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="units.html">Units</a></li>
+                    <li class="active"><a href="#">Timetable</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up to MEE</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login to MEEE</a></li>
+                </ul>
+            </div>
+        </div> 
+    </nav>
+
+    <div class="table-responsive">
+        <table class="table">
+        <caption class="caption">Timetable!</caption>
+            <tr>
+                <th></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <td>08:00-10:00</td>
+                <td></td>
+                <td class="lecture">CITS3003 Lecture</td>
+                <td></td>
+                <td></td>
+                <td class="workshop">CITS3403 Workshop</td>
+            </tr>
+            <tr>
+                <td>10:00-12:00</td>
+                <td></td>
+                <td></td>
+                <td class="lecture">CITS3002 Lecture</td>
+                <td class="lab">CITS3403 Lab</td>
+                <td class="lab">CITS1003 Lab</td>
+            </tr>
+            <tr>
+                <td>12:00-14:00</td>
+                <td class="lecture">CITS3003 Lecture</td>
+                <td></td>
+                <td class="lecture">CITS3403 Lecture</td>
+                <td class="lab">CITS3002 Lab</td>
+                <td class="lab">CITS3003 Lab</td>
+            </tr>
+            <tr>
+                <td>14:00-16:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="lecture">CITS1003 Lecture</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

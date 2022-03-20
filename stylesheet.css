@@ -1,0 +1,81 @@
+/* Navigation */
+.navbar {
+    margin-bottom: 0px !important;
+}
+
+/* Home Page */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: orange; 
+}
+
+.bgimage {
+    height: 100vh;
+    background: url('Me.jpg');
+    background-size: contain;
+    background-repeat: round;
+    position: relative;
+}
+
+/* Timetable */
+.caption {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
+}
+
+table {
+    border: 2px black solid;
+}
+
+td, th {
+    border: 1px black solid;
+}
+
+td:hover {
+    background-color: #ffc87c;
+}
+
+tr {
+    background-color: white;
+}
+
+tr:nth-child(1):hover {
+    background-color: orange !important;
+}
+
+tr:nth-child(1) {
+    background-color: orange !important;
+    color: white !important;
+}
+
+.lecture {
+    background-color: lightblue;
+}
+
+.lab {
+    background-color: lightgreen;
+}
+
+.workshop {
+    background-color: #DDA0DD;
+}
+
+/* About Me */
+#header {
+    color: orange;
+    text-align: center;
+}
+
+#units {
+    text-align: center;
+}
+
+
+
+

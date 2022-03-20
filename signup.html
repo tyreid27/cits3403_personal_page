@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>For me!</title>
+    <title>Sign Up</title>
 </head>
-
 <body>
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
@@ -24,33 +23,34 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="units.html">Units</a></li>
                     <li><a href="timetable.html">Timetable</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up to MEE</a></li>
+                    <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up to MEE</a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login to MEEE</a></li>
                 </ul>
             </div>
         </div> 
     </nav>
 
-    <section class="bgimage" id="main">
-        <div class="container-fluid">
-            <div class="hero-text">
-                <h1>A website just for me!</h1>
-                <h4>Welcome to this wonderful website just for me!</h4>
+    <div class="container-fluid">
+        <form>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" class="form-control" id="username">
             </div>
-            <!-- <div class="row" >
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 hero-text">
-                    <h1>A website just for me!</h1>
-                    <h4>Welcome to this wonderful website just for me!</h4>
-                </div>
-                <br>
-            </div> -->
-        </div>  
-    </section> 
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="text" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="date">DOB: </label>
+                <input type="date" class="form control" id="date">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </div>
 </body>
-
 </html>
