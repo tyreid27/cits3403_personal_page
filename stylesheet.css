@@ -21,7 +21,16 @@
     position: relative;
 }
 
-/* Timetable */
+.btn-ff {
+    background-color: orange;
+    margin: 0;
+    position: absolute;
+    top: 2.35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Timetable 
 .caption {
     text-align: center;
     font-weight: bold;
@@ -66,7 +75,7 @@ tr:nth-child(1) {
     background-color: #DDA0DD;
 }
 
-/* About Me */
+/* Units */
 #header {
     color: orange;
     text-align: center;
@@ -76,6 +85,32 @@ tr:nth-child(1) {
     text-align: center;
 }
 
+.light-mode {
+    background-color: white;
+    color: black;
+}
 
+.dark-mode {
+    background-color: black;
+    color: orange;
+}
 
+td.wordleCP {
+    background-color: lightgreen;
+}
 
+td.wordleWP {
+    background-color: yellow;
+}
+
+td.wordleNO {
+    background-color: lightgrey;
+}
+
+/* Wordle */
+table.wordleTable {
+    border: 2px solid black;
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
