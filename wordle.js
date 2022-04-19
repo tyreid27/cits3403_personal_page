@@ -5,7 +5,7 @@
 
 
 
-/*function keyInput(e) {
+/* function keyInput(e) {
     if (e.key.match(/^[a-z]$/)) {
         guessWord += e.key;
         cell += 1;
@@ -93,7 +93,7 @@ function wordle(target, guess) {
                     wordGuess[position] = 2;
                     letterCorrect = true;
                     break;
-                } 
+                }
             }
         }
         if (frequency == 1 && letterCorrect == false) {
